@@ -188,7 +188,3 @@ Wazuh-SIEM-Security-Lab
 
 ---
 
-
-**Nisarga N T**
-
-Cybersecurity Student | SIEM | Blue Team | SOC Analyst
