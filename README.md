@@ -189,6 +189,6 @@ Wazuh-SIEM-Security-Lab
 ---
 
 
-**Suraj**
+**Nisarga N T**
 
 Cybersecurity Student | SIEM | Blue Team | SOC Analyst
