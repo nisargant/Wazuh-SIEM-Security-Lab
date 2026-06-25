@@ -1,12 +1,60 @@
 # Wazuh SIEM Security Lab
 
-A Security Information and Event Management (SIEM) lab built using **Wazuh**, **Sysmon**, and **Windows 11** for centralized log collection, endpoint monitoring, threat detection, and vulnerability assessment.
+![Platform](https://img.shields.io/badge/Platform-Ubuntu%20%7C%20Windows-blue)
+![SIEM](https://img.shields.io/badge/SIEM-Wazuh-green)
+![Monitoring](https://img.shields.io/badge/Monitoring-Sysmon-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+A hands-on **Security Information and Event Management (SIEM)** lab built using **Wazuh**, **Sysmon**, **Ubuntu Server**, and **Windows 11** to demonstrate centralized log collection, endpoint monitoring, threat detection, and vulnerability assessment.
+
+![Dashboard](Screenshots/09-agent-security-overview-dashboard.png)
+
+---
+
+## Table of Contents
+
+- Quick Summary
+- Setup
+- Project Overview
+- Lab Architecture
+- Technologies Used
+- Features
+- Project Screenshots
+- Verification Commands
+- Skills Demonstrated
+- Learning Outcomes
+- Repository Structure
+- Future Improvements
+
+---
+
+## Quick Summary
+
+- **SIEM Platform:** Wazuh
+- **Endpoint OS:** Windows 11
+- **Server OS:** Ubuntu Server
+- **Log Collection:** Wazuh Agent
+- **Event Monitoring:** Sysmon
+- **Vulnerability Detection:** Enabled
+
+---
+
+## Setup
+
+1. Install Ubuntu Server.
+2. Install Wazuh Manager.
+3. Install Wazuh Indexer.
+4. Install Wazuh Dashboard.
+5. Install the Wazuh Agent on Windows 11.
+6. Install and configure Sysmon.
+7. Verify communication between the Windows endpoint and the Wazuh server.
+8. Monitor security events and perform vulnerability assessment using the Wazuh Dashboard.
 
 ---
 
 ## Project Overview
 
-This project demonstrates the deployment of a Wazuh SIEM environment capable of:
+This project demonstrates the deployment and configuration of a **Wazuh SIEM** environment capable of:
 
 - Collecting Windows endpoint logs
 - Monitoring system activity using Sysmon
@@ -18,7 +66,7 @@ This project demonstrates the deployment of a Wazuh SIEM environment capable of:
 
 ## Lab Architecture
 
-```
+```text
 Windows 11 Endpoint
        │
        │ Sysmon Logs
@@ -53,9 +101,9 @@ Wazuh Dashboard
 - SIEM Deployment
 - Windows Endpoint Monitoring
 - Sysmon Integration
-- Log Collection
+- Centralized Log Collection
 - Threat Detection
-- Vulnerability Detection
+- Vulnerability Assessment
 - Security Dashboard
 - Agent Monitoring
 
@@ -69,13 +117,13 @@ Wazuh Dashboard
 
 ---
 
-## 2. Wazuh Manager Running
+## 2. Wazuh Manager Service Running
 
 ![Manager](Screenshots/02-wazuh-manager-service-running.png)
 
 ---
 
-## 3. Wazuh Indexer Running
+## 3. Wazuh Indexer Service Running
 
 ![Indexer](Screenshots/03-wazuh-indexer-service-running.png)
 
@@ -105,7 +153,7 @@ Wazuh Dashboard
 
 ---
 
-## 8. Wazuh Agent Service
+## 8. Wazuh Agent Service Running
 
 ![Agent](Screenshots/08-wazuh-agent-service-running.png)
 
@@ -141,30 +189,44 @@ Wazuh Dashboard
 
 ---
 
-# Verification Commands
+## Verification Commands
 
-See **Commands.md** for all commands used during setup and verification.
-
----
-
-# Learning Outcomes
-
-Through this project I learned:
-
-- SIEM deployment
-- Wazuh architecture
-- Windows endpoint monitoring
-- Sysmon configuration
-- Log analysis
-- Threat detection
-- Vulnerability assessment
-- Linux service management
+See the complete setup and verification guide in **[Commands.md](Commands.md)**.
 
 ---
 
-# Repository Structure
+## Skills Demonstrated
 
-```
+- SIEM Deployment
+- Linux Administration
+- Windows Event Logging
+- Endpoint Security
+- Threat Detection
+- Vulnerability Management
+- PowerShell
+- Ubuntu Server
+- Log Analysis
+- Security Monitoring
+
+---
+
+## Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Deploying and configuring a Wazuh SIEM environment
+- Managing Wazuh Manager, Indexer, and Dashboard services
+- Integrating Windows endpoints using the Wazuh Agent
+- Configuring Sysmon for advanced Windows event logging
+- Monitoring endpoint activity through a centralized dashboard
+- Performing vulnerability detection and analysis
+- Troubleshooting Linux services and agent communication
+
+---
+
+## Repository Structure
+
+```text
 Wazuh-SIEM-Security-Lab
 │
 ├── README.md
@@ -188,3 +250,19 @@ Wazuh-SIEM-Security-Lab
 
 ---
 
+## Future Improvements
+
+- Configure Active Response
+- Enable Email Alerting
+- Integrate MITRE ATT&CK Mapping
+- Develop Custom Detection Rules
+- Monitor Multiple Windows Endpoints
+- Integrate Threat Intelligence Feeds
+
+---
+
+## Nisarga
+
+**GitHub:** https://github.com/nisargant
+
+This project was created for educational purposes to demonstrate SIEM deployment, endpoint monitoring, vulnerability assessment, and security event analysis using Wazuh.
