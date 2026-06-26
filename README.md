@@ -261,8 +261,20 @@ Wazuh-SIEM-Security-Lab
 
 ---
 
-## Nisarga
+# 👨‍💻 Author
+
+**Nisarga N T**
+
+Aspiring SOC Analyst | SIEM | Threat Detection | Incident Response
 
 **GitHub:** https://github.com/nisargant
 
+**LinkedIn:** https://linkedin.com/in/nisarga-n-t
+
 This project was created for educational purposes to demonstrate SIEM deployment, endpoint monitoring, vulnerability assessment, and security event analysis using Wazuh.
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
